@@ -37,6 +37,11 @@
   border: 2px dashed black;
 }
 
+#intro .container .row .card {
+  min-height: 80px;
+  background-color: aqua;
+}
+
 /*
 # *************
 #    LAYOUT   *
