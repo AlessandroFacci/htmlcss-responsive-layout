@@ -28,6 +28,10 @@
 # *************
 */
 
+.border {
+  border: 2px dashed black;
+}
+
 /*
 # *************
 #    LAYOUT   *
@@ -45,6 +49,12 @@ header {
 header .container {
   display: flex;
   justify-content: space-between;
+}
+
+/* main */
+
+#intro {
+  padding: 3rem 1rem;
 }
 
 /*
