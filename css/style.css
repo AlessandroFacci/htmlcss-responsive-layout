@@ -62,3 +62,16 @@ header .container {
 #  RESPONSIVE *
 # *************
 */
+
+@media screen and (min-width: 768px) {
+  #intro .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: calc(100% / 3);
+  }
+  .card:first-child {
+    width: calc(100% / 3 * 2);
+  }
+}
