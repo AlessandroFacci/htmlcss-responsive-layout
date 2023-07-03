@@ -167,6 +167,12 @@ header .container {
   padding: 3rem 1rem;
 }
 
+/* footer */
+
+footer {
+  padding: 3rem 1rem;
+}
+
 /*
 # *************
 #  RESPONSIVE *
@@ -210,6 +216,9 @@ header .container {
   }
   #start .container {
     width: 90%;
+  }
+  footer .container {
+    width: 50%;
   }
 }
 
