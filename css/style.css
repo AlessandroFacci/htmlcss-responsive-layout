@@ -51,6 +51,11 @@
   min-height: 80px;
 }
 
+#plan .container {
+  min-height: 80px;
+  background-color: aquamarine;
+}
+
 /*
 # *************
 #    LAYOUT   *
@@ -88,6 +93,16 @@ header .container {
   flex-direction: column;
 }
 
+/* plan section */
+
+#plan {
+  padding: 3rem 1rem;
+}
+
+#plan .container .col-container {
+  flex-direction: column;
+}
+
 /*
 # *************
 #  RESPONSIVE *
@@ -120,6 +135,18 @@ header .container {
   .col-img {
     width: 50%;
   }
+
+  #plan .container {
+    width: 90%;
+  }
+
+  #plan .container .col-container {
+    flex-direction: row;
+  }
+  .col-plan1,
+  .col-plan2 {
+    width: 50%;
+  }
 }
 
 /* big dekstop */
@@ -127,5 +154,8 @@ header .container {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1180px;
+  }
+  #plan .container {
+    width: 1050px;
   }
 }
