@@ -72,6 +72,8 @@ header .container {
 # *************
 */
 
+/* tablet */
+
 @media screen and (min-width: 768px) {
   #intro .container .row {
     display: flex;
@@ -83,5 +85,13 @@ header .container {
   }
   #intro .container .row .card:first-child {
     width: calc(100% / 3 * 2 - 2rem);
+  }
+}
+
+/* dekstop */
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1180px;
   }
 }
