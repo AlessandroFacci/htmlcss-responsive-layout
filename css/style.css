@@ -61,6 +61,11 @@
   background-color: plum;
 }
 
+#benefit .container {
+  min-height: 80px;
+  background-color: lightyellow;
+}
+
 /*
 # *************
 #    LAYOUT   *
@@ -132,6 +137,16 @@ header .container {
 .col-card1,
 .col-card2 {
   padding: 1rem;
+}
+
+/* benefits section */
+
+#benefit {
+  padding: 3rem 1rem;
+}
+
+.benefit-card {
+  margin: 1rem;
 }
 
 /*
