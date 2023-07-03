@@ -173,6 +173,15 @@ header .container {
     display: flex;
     text-align: justify;
   }
+
+  .benefit-card {
+    width: calc(100% / 2 - 2rem);
+  }
+
+  #benefit .container .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /* dekstop */
@@ -196,6 +205,9 @@ header .container {
   .col-plan1,
   .col-plan2 {
     width: 50%;
+  }
+  .benefit-card {
+    width: calc(100% / 3 - 2rem);
   }
 }
 
