@@ -121,3 +121,11 @@ header .container {
     width: 50%;
   }
 }
+
+/* big dekstop */
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1180px;
+  }
+}
