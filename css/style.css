@@ -22,6 +22,11 @@
   margin-right: auto;
 }
 
+.row {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
 /*
 # *************
 #     DEBUG   *
@@ -57,6 +62,10 @@ header .container {
   padding: 3rem 1rem;
 }
 
+#intro .container .row .card {
+  margin: 1rem;
+}
+
 /*
 # *************
 #  RESPONSIVE *
@@ -64,14 +73,15 @@ header .container {
 */
 
 @media screen and (min-width: 768px) {
-  #intro .container {
+  #intro .container .row {
     display: flex;
     flex-wrap: wrap;
   }
-  .card {
-    width: calc(100% / 3);
+
+  #intro .container .row .card {
+    width: calc(100% / 3 - 2rem);
   }
-  .card:first-child {
-    width: calc(100% / 3 * 2);
+  #intro .container .row .card:first-child {
+    width: calc(100% / 3 * 2 - 2rem);
   }
 }
