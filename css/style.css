@@ -149,6 +149,18 @@ header .container {
   margin: 1rem;
 }
 
+/* about us section */
+
+#about-us-section {
+  padding: 3rem 1rem;
+}
+
+.about-us-user {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
 /*
 # *************
 #  RESPONSIVE *
@@ -173,7 +185,6 @@ header .container {
     display: flex;
     text-align: justify;
   }
-
   .benefit-card {
     width: calc(100% / 2 - 2rem);
   }
@@ -181,6 +192,15 @@ header .container {
   #benefit .container .row {
     display: flex;
     flex-wrap: wrap;
+  }
+  #about-us-section .container {
+    display: flex;
+  }
+  .col-about-us1 {
+    width: 70%;
+  }
+  .col-about-us2 {
+    width: 30%;
   }
 }
 
@@ -208,6 +228,10 @@ header .container {
   }
   .benefit-card {
     width: calc(100% / 3 - 2rem);
+  }
+  .col-about-us1,
+  .col-about-us2 {
+    padding: 1rem;
   }
 }
 
