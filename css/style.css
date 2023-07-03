@@ -129,6 +129,11 @@ header .container {
   margin: 1rem 0;
 }
 
+.col-card1,
+.col-card2 {
+  padding: 1rem;
+}
+
 /*
 # *************
 #  RESPONSIVE *
@@ -148,6 +153,10 @@ header .container {
   }
   #intro .container .row .card:first-child {
     width: calc(100% / 3 * 2 - 2rem);
+  }
+  .testimonial-card {
+    display: flex;
+    text-align: justify;
   }
 }
 
