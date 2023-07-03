@@ -12,6 +12,18 @@
 
 /*
 # *************
+#     UTILS   *
+# *************
+*/
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+# *************
 #     DEBUG   *
 # *************
 */
@@ -21,6 +33,19 @@
 #    LAYOUT   *
 # *************
 */
+
+/* header */
+
+header {
+  background-color: #0084fd;
+  line-height: 3rem;
+  padding: 1rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*
 # *************
