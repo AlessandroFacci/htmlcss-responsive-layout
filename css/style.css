@@ -56,6 +56,11 @@
   background-color: aquamarine;
 }
 
+#testimonial .container {
+  min-height: 80px;
+  background-color: plum;
+}
+
 /*
 # *************
 #    LAYOUT   *
@@ -101,6 +106,27 @@ header .container {
 
 #plan .container .col-container {
   flex-direction: column;
+}
+
+/* testimonial section */
+
+#testimonial {
+  padding: 3rem 1rem;
+}
+
+#testimonial .container {
+  text-align: center;
+}
+
+.testimonial-user {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.testimonial-card {
+  margin: 1rem 0;
 }
 
 /*
