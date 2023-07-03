@@ -161,6 +161,12 @@ header .container {
   border-radius: 50%;
 }
 
+/* start section */
+
+#start {
+  padding: 3rem 1rem;
+}
+
 /*
 # *************
 #  RESPONSIVE *
@@ -202,6 +208,9 @@ header .container {
   .col-about-us2 {
     width: 30%;
   }
+  #start .container {
+    width: 90%;
+  }
 }
 
 /* dekstop */
@@ -232,6 +241,9 @@ header .container {
   .col-about-us1,
   .col-about-us2 {
     padding: 1rem;
+  }
+  #start .container {
+    width: 70%;
   }
 }
 
