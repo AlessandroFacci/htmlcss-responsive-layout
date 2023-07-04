@@ -343,7 +343,7 @@ nav i {
   margin-right: 0.5rem;
 }
 
-/* start section */
+/* START SECTIION */
 
 #start {
   padding: 3rem 1rem;
@@ -395,10 +395,24 @@ nav i {
   text-decoration: underline;
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
   padding: 3rem 1rem;
+  background-color: #333333;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: #9792e4;
+  text-decoration: underline;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 4rem;
+  font-size: 1.2rem;
 }
 
 /*
