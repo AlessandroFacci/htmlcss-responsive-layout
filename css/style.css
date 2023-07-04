@@ -41,11 +41,6 @@
   border: 2px dashed black;
 }
 
-#benefit .container {
-  min-height: 80px;
-  background-color: lightyellow;
-}
-
 /*
 # *************
 #    LAYOUT   *
@@ -238,14 +233,47 @@ nav i {
   padding-bottom: 1rem;
 }
 
-/* benefits section */
+/* BENEFITS SECTION */
 
 #benefit {
   padding: 3rem 1rem;
+  background-color: #9792e4;
+  color: white;
 }
 
 .benefit-card {
   margin: 1rem;
+  background-color: white;
+  color: #718a9f;
+}
+
+.benefit-card .number {
+  font-size: 4rem;
+  padding: 2rem;
+  color: #9792e4;
+}
+
+.benefit-card h3 {
+  font-size: 2rem;
+  padding: 0 2rem;
+  color: #9792e4;
+}
+
+.benefit-card .benefit-text {
+  padding: 2rem;
+}
+
+.benefit-card a {
+  text-decoration: none;
+  color: white;
+}
+
+.benefit-card button {
+  margin: 0 2rem 2rem 2rem;
+  background-color: #9792e4;
+  padding: 0.8rem 3rem;
+  border-radius: 2rem;
+  border: none;
 }
 
 /* about us section */
