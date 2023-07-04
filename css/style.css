@@ -41,11 +41,6 @@
   border: 2px dashed black;
 }
 
-#plan .container {
-  min-height: 80px;
-  background-color: aquamarine;
-}
-
 #testimonial .container {
   min-height: 80px;
   background-color: plum;
@@ -152,10 +147,48 @@ nav i {
 
 #plan {
   padding: 3rem 1rem;
+  background-color: #9792e4;
+  color: white;
+  text-align: justify;
 }
 
 #plan .container .col-container {
   flex-direction: column;
+}
+
+#plan h2 {
+  padding-bottom: 2rem;
+}
+
+#plan .card-plan {
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#plan .card-plan h3 {
+  margin-bottom: 1rem;
+}
+
+#plan .card-plan p {
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+  font-style: oblique;
+}
+
+#plan .arrow {
+  background-color: #9792e4;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+}
+
+#plan .arrow i {
+  padding-top: 1rem;
 }
 
 /* testimonial section */
