@@ -276,16 +276,71 @@ nav i {
   border: none;
 }
 
-/* about us section */
+/* ABOUT US SECTION */
 
 #about-us-section {
   padding: 3rem 1rem;
 }
 
 .about-us-user {
-  height: 50px;
-  width: 50px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 2rem;
+}
+
+#about-us-section h1 {
+  padding: 2rem;
+  font-size: 4rem;
+  color: #9792e4;
+}
+
+#about-us-section p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  line-height: 2.5rem;
+  padding: 0 2rem;
+}
+
+#about-us-section img {
+  width: 100%;
+}
+
+.about-us-us2 {
+  position: relative;
+}
+
+.about-us-user span {
+  position: absolute;
+  color: #9792e4;
+  left: 12rem;
+  font-size: 4rem;
+}
+
+#about-us-section h2 {
+  font-size: 2rem;
+  padding: 0 2rem;
+  color: #9792e4;
+}
+
+#about-us-section button {
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  margin: 2rem;
+  background-color: #9792e4;
+}
+
+#about-us-section a {
+  text-decoration: none;
+  color: white;
+}
+
+#about-us-section a i {
+  margin-right: 0.5rem;
 }
 
 /* start section */
@@ -350,10 +405,10 @@ footer {
     display: flex;
   }
   .col-about-us1 {
-    width: 70%;
+    width: 60%;
   }
   .col-about-us2 {
-    width: 30%;
+    width: 40%;
   }
 
   /* start */
