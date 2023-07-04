@@ -41,16 +41,6 @@
   border: 2px dashed black;
 }
 
-#intro .container .row .card {
-  min-height: 80px;
-  background-color: aqua;
-}
-
-.col-content,
-.col-img {
-  min-height: 80px;
-}
-
 #plan .container {
   min-height: 80px;
   background-color: aquamarine;
@@ -72,7 +62,7 @@
 # *************
 */
 
-/* header */
+/* HEADER */
 
 header {
   background-color: #0084fd;
@@ -91,22 +81,71 @@ nav i {
   color: white;
 }
 
-/* main */
+/* MAIN */
 
-/* intro section */
+/* INTRO SECTION */
 
 #intro {
   padding: 3rem 1rem;
 }
 
-#intro .container .row .card {
+#intro .card {
+  text-align: center;
+  border-radius: 2rem;
   margin: 1rem;
+  background-color: #b5ddff;
+}
+
+#intro .card h3 {
+  color: #0285fd;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+#intro .card p {
+  font-size: 1rem;
+  margin: 2rem;
+  text-align: center;
+  color: #718a9f;
+}
+
+#intro .card a {
+  text-decoration: none;
+  color: white;
+}
+
+#intro .card .small-card {
+  font-size: 5rem;
+  color: #0285fd;
+  margin: 2rem 0 0 0;
 }
 
 /* big card */
 
 .card .col-container {
   flex-direction: column;
+}
+
+#intro .col-container i {
+  padding-right: 0.3rem;
+}
+
+#intro .card button {
+  border: none;
+  padding: 0.5rem 3rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  margin: 1rem 0 2rem 0;
+  background-color: #0285fd;
+}
+
+#intro .card img {
+  width: 230px;
+}
+
+#intro .col-container .col-img {
+  display: flex;
+  align-items: flex-end;
 }
 
 /* plan section */
@@ -198,6 +237,15 @@ footer {
   }
   #intro .container .row .card:first-child {
     width: calc(100% / 3 * 2 - 2rem);
+  }
+  #intro .card .col-container * {
+    text-align: start;
+  }
+  #intro .card .col-container button {
+    margin-left: 2rem;
+  }
+  #intro .card .col-container img {
+    margin-left: 2.5rem;
   }
 
   /* testimonials */
