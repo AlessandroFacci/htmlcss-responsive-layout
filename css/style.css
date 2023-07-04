@@ -347,6 +347,52 @@ nav i {
 
 #start {
   padding: 3rem 1rem;
+  text-align: center;
+  background-color: #9792e4;
+}
+
+#start p {
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: white;
+}
+
+#start p:first-child {
+  color: #c5c3f0;
+}
+
+#start h2 {
+  font-size: 2.5rem;
+  padding: 0 2rem;
+  color: white;
+}
+
+#start h1 {
+  font-size: 5rem;
+  padding-top: 2rem;
+  color: #fdc15f;
+}
+
+#start a {
+  text-decoration: none;
+  color: #9792e4;
+  font-size: 1.5rem;
+}
+
+#start button {
+  border: none;
+  border-radius: 2rem;
+  padding: 1.2rem 5rem;
+}
+
+#start p:last-child {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+#start p:last-child span {
+  text-decoration: underline;
 }
 
 /* footer */
