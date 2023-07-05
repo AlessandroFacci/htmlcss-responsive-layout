@@ -108,15 +108,18 @@ header button {
 
 #intro .card h3 {
   color: #0285fd;
-  margin: 2rem;
+  margin-top: 2rem;
   font-size: 1.5rem;
+  padding: 0 2rem;
 }
 
 #intro .card p {
   font-size: 1rem;
-  margin: 2rem;
+  padding: 2rem;
   text-align: center;
   color: #718a9f;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 
 #intro .card a {
@@ -140,12 +143,24 @@ header button {
   padding-right: 0.3rem;
 }
 
+#intro .card .col-content p {
+  text-align: start;
+}
+
+#intro .card .col-content h3 {
+  text-align: start;
+}
+
+#intro .card .col-content {
+  text-align: start;
+}
+
 #intro .card button {
   border: none;
   padding: 0.5rem 3rem;
   border-radius: 1rem;
   font-size: 1.3rem;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0 2rem 2rem;
   background-color: #0285fd;
 }
 
