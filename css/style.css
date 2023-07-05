@@ -318,10 +318,17 @@ header button {
   color: white;
 }
 
+#benefit h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0 4rem 0;
+}
+
 .benefit-card {
   margin: 1rem;
   background-color: white;
   color: #718a9f;
+  border-radius: 2rem;
 }
 
 .benefit-card .number {
@@ -338,6 +345,8 @@ header button {
 
 .benefit-card .benefit-text {
   padding: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
 
 .benefit-card a {
@@ -549,6 +558,9 @@ footer p {
   #benefit .container .row {
     display: flex;
     flex-wrap: wrap;
+  }
+  #benefit h2 {
+    font-size: 3rem;
   }
 
   /* about us */
