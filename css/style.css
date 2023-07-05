@@ -249,9 +249,24 @@ header button {
   padding-top: 1rem;
 }
 
-.testimonial-text {
-  padding: 1rem 0;
+.testimonial-text:first-child {
+  margin: 2rem;
+  font-size: 1.5rem;
 }
+
+#testimonial .container h2 {
+  font-size: 3rem;
+  color: #9792e4;
+  margin: 4rem;
+}
+
+.testimonial-text:last-child {
+  font-size: 1.5rem;
+  margin: 4rem;
+  line-height: 2.5rem;
+}
+
+/* testimonials card */
 
 .testimonial-user {
   height: 200px;
@@ -259,30 +274,40 @@ header button {
   border-radius: 50%;
   display: inline-block;
   overflow: hidden;
+  margin: 2rem;
 }
 
 .testimonial-user img {
-  min-width: 100%;
-  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
 }
 
 .testimonial-card {
-  margin: 1rem 0;
+  margin: 2rem 0;
+}
+
+.testimonial-card p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 
 .col-card1 {
-  padding: 1rem;
+  padding: 0 1rem;
+  border-radius: 2rem 2rem 0 0;
   background-color: #9792e4;
   color: white;
 }
 .col-card2 {
   padding: 0 1rem;
+  border-radius: 0 0 2rem 2rem;
   background-color: #9792e4;
   color: white;
 }
 
 .col-card2 p {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 /* BENEFITS SECTION */
@@ -507,6 +532,14 @@ footer p {
   .testimonial-card {
     display: flex;
     text-align: justify;
+  }
+  .col-card1 {
+    border-radius: 2rem 0 0 2rem;
+  }
+  .col-card2 {
+    padding-top: 3rem;
+    padding-right: 3rem;
+    border-radius: 0 2rem 2rem 0;
   }
 
   /* benefits */
